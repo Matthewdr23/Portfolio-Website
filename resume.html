@@ -14,7 +14,7 @@
    <section id="container--main">
       <section id="wrapper--hero" class="section--page">
          <!-- <img id="profile-pic" src="Images/PlaceHolderImage.png" alt="My Picture"> -->
-         <img id="profile-pic" src="https://s3.amazonaws.com/assets.piedpiper.pro/app/uploads/2019/11/silicon-valley-s06-russfest-00-1920x1080.jpg" alt="Screenshot of the Wall of Wonder." />
+         <!-- <img id="profile-pic" src="blank" alt="Screenshot of the Wall of Wonder." /> -->
          <section>
             <h1 id="user-name">Matthew Velez</h1>
             <p id="bio-resumepage">
@@ -41,12 +41,29 @@
       </section>
 
       <section class="section--page">
-         <h2>Skills and Qualifications</h2>
-         <ul id="qualifications--list">
-            <li> Experienced IT Professional with a specialty in cybersecurity</li>
-            <li> CompTIA Security+ Certification</li>
-            <li> AWS Certified Cloud Practitioner</li>
-         </ul>
+         <h2>Projects</h2>
+
+         <div class="card--project">
+            <p>Home lab using ESXi with VMware on all of my virtual machines for when I am conducting penetration
+               testing and for when I
+               participate in CTF events. The VMs that I maintain on my Server are Windows, Ubuntu, and Kali Linux.</p>
+         </div>
+
+         <div class="line-break"></div>
+         <div class="card--project">
+            <p>I created an AWS EC2 instance for my CTF teammates to have an environment to be able to work on CTFs and
+               continue their
+               studies.</p>
+         </div>
+         <div class="line-break"></div>
+         <div class="card--project">
+            <p>I created the AWS EC2 instance because I constantly have teammates that run into machine issue on their
+               personal devices
+               so the home lab actually gives them access through a VPN and they get their own environment to run CTFs
+               in and continue
+               their studies without fear of hardware failure or data loss.</p>
+         </div>
+
       </section>
 
       <!-- Qualifications -->
@@ -55,11 +72,18 @@
 
          <section id="wrapper--techstack__items">
             <section class="card--techstack"><span>Bash, Java, JavaScript, and Python</span></section>
+            <section class="card--techstack"><span>CI/CD</span></section>
             <section class="card--techstack"><span>Azure Sentinel, Azure Intune, & Defender</span></section>
             <section class="card--techstack"><span>Terraform</span></section>
+            <section class="card--techstack"><span>Cloud & On-premise Networking</span></section>
             <section class="card--techstack"><span>Linux, Mac OS, Windows, and Windows Admin</span></section>
-            <section class="card--techstack"><span>Penetration testing, Endpoint Security, Phishing Testing, Malware
-                  Analysis, and Vulnerability Management</span></section>
+            <section class="card--techstack"><span>Malware Analysis</span></section>
+            <section class="card--techstack"><span>Network Security</span></section>
+            <section class="card--techstack"><span>Splunk</span></section>
+
+            <section class="card--techstack"><span>IAM Policies</span></section>
+            <section class="card--techstack"><span>Endpoint Security</span></section>
+            <section class="card--techstack"><span>Threat & Vulnerability Management</span></section>
             <section class="card--techstack"><span>Group Policy and Active Directory</span></section>
          </section>
       </section>
@@ -67,11 +91,44 @@
       <!-- Work History -->
       <section id="work-history-wrapper" class="section--page">
          <h2>Work History</h2>
+         <section class="line-break"></section>
+         <section class="card--work-history">
+            <strong>Network Security Administrator | ClaimLogiq</strong>
+            <p>05/2023 - Present</p>
+            <ul>
+               <li>Maintained compliance on endpoint devices by creating and implementing custom PowerShell Scripts in conjunction with Microsoft Intune to ensure compliance throughout the company. 
+               </li>
+               <li>Developed and implemented a comprehensive vulnerability management program program based upon
+                  preventive, detective and
+                  responsive controls to mitigate vulnerabilities and threat vectors</li>
+               <li>Orchestrated the configuration and administration of Azure Firewall, fortifying cloud assets and network infrastructure against external threats resulting in a 70% decrease in overall attack surface.</li>
+               <li>Implemented the district's virtual architecture and infrastructure to facilitate remote teaching and
+                  learning during
+                  COVID.</li>
+               <li>Established an Identity Access Management (IAM) recertification framework that crosses both cloud and
+                  legacy
+                  environments to ensure every user has the appropriate permissions.</li>
+               <li>Managed a team of network engineers to automate the onboarding process for 7000 staff and students.
+               </li>
+               <li>Performed weekly assessments on all computer systems, network devices and endpoints with the
+                  district’s infrastructure</li>
+               <li>Leveraged Barracuda Networks and its use of AI/ML to scan for phishing attacks within the school
+                  email ecosystem.</li>
+               <li>Managed the process to establish alerts and monitoring recipes for telemetry gathered from Splunk.
+               </li>
+               <li>
+                  Trained district staff on all aspects of the district’s security policies, procedures and practices.
+               </li>
+            </ul>
+         </section>
+
+         <div class="line-break"></div>
+         </div>
 
          <section class="line-break"></section>
          <section class="card--work-history">
-            <strong>Systems Network Security Administrator | 🏫 Essex County Vocational Technical Schools</strong>
-            <p>08/2017 - Present</p>
+            <strong>Systems Network Security Administrator | Essex County Vocational Technical Schools</strong>
+            <p>08/2017 - 05/2023</p>
             <ul>
                <li>Modernized key security policies, procedures and practices to address the emergence of cloud and
                   microservice architectures and to address gaps in legacy security standards.
@@ -129,31 +186,7 @@
       </section>
       <!-- Projects -->
 
-      <section class="section--page">
-         <h2>Projects</h2>
 
-         <div class="card--project">
-            <p>Home lab using ESXi with VMware on all of my virtual machines for when I am conducting penetration
-               testing and for when I
-               participate in CTF events. The VMs that I maintain on my Server are Windows, Ubuntu, and Kali Linux.</p>
-         </div>
-
-         <div class="line-break"></div>
-         <div class="card--project">
-            <p>I created an AWS EC2 instance for my CTF teammates to have an environment to be able to work on CTFs and
-               continue their
-               studies.</p>
-         </div>
-         <div class="line-break"></div>
-         <div class="card--project">
-            <p>I created the AWS EC2 instance because I constantly have teammates that run into machine issue on their
-               personal devices
-               so the home lab actually gives them access through a VPN and they get their own environment to run CTFs
-               in and continue
-               their studies without fear of hardware failure or data loss.</p>
-         </div>
-
-      </section>
    </section>
 </body>
 
