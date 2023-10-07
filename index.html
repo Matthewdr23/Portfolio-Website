@@ -1,11 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Matthew Velez's Portfolio</title>
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/43799853bb.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <h1>Matthew Velez</h1>
+   <nav>
+      <ul class="navbar">
+         <li>
+            <h1><a href="index.html"><span id="spinning" class="fa-solid fa-computer"></span>Matthew Velez</a></h1>
+         </li>
+         <li><a href="#projects">Projects</a></li>
+         <li><a href="aboutme.html">About</a></li>
+         <li><a href="#contact-me">Contact</a></li>
+         <li><a href="badges.html">Badges</a></li>
+         <!-- aria-hidden will hide icon from screen readers -->
+         <li><a href="https://www.linkedin.com/in/matthew-velez-b85b97140/" target="_blank"><span class="fa-brands fa-linkedin"
+                  aria-hidden="true"></span> <span class="sr-only">LinkedIn</span></a></li>
+         <li><a href="https://github.com/Matthewdr23" target="_blank"><span class="fa-brands fa-github"
+                  aria-hidden="true"></span><span class="sr-only" target="_blank">Github</span>
+            </a></li>
+         <!-- <li><a href="EricHanResume.pdf" class="resume" target="_blank" rel="noopener noreferrer">Resum&eacute;</a></li> -->
+         <li><a href="resume.html" class="resume" target="_blank">Resum&eacute;</a></li>
+      </ul>
+   </nav>
+
+   <section id="intro">
+      <p class="name">Hi, my name is <span>Matthew Velez</span></p>
+      <h2>I'm a</h2>
+      <span
+         data-typewriter="Cloud Security Engineer, Security Engineer,Systems Admin, Network Security Admin, SOC Specialist"></span>
+      <!-- <p>I'm a lifelong learner.</p> -->
+   </section>
+   <section class="gradient"></section>
+   <section class="darkblue">
+      <section id="projects">
+         <h2>My Projects</h2>
+         <article>
+            <section class="text">
+               <h4>Most Recent Project</h4>target
+               <h3>AWS Cloud Resume Challenge <a href="" ="_blank"><span
+                        class="fa-brands fa-github" aria-hidden="true"></span>
+                  </a></h3>
+               <p class="blackbox">
+                  The AWS Cloud Resume Challenge showcases my practical skills in AWS cloud services through the creation of a comprehensive and fully functional cloud resume.
+                   It highlights my ability to deploy, manage, and optimize cloud resources using AWS technologies, demonstrating my hands-on experience in cloud computing.
+                   This project underscores my commitment to mastering AWS and contributing effectively to our cloud-focused projects.
+                  <a
+                     href="PlaceHolder"> Click
+                     here</a>
+                  and see for yourself.</p>
+               <h4>Technologies used include: </h4>
+               <ul>
+                  <li>AWS S3</li>
+                  <li>Dynamo DB</li>
+                  <li>Serverless Application Model Template</li>
+                  <li>Terraform</li>
+                  <li>CI/CD</li>
+                  <li>DNS</li>
+               </ul>
+            </section>
+            <img src="images/AWS-Cloud-Resume.png" alt="Cloud Resume Challenge" />
+         </article>
+         <hr>
+         <!-- Project 1 -->
+         <article>
+            <section class="text">
+               <h3> Azure Sentinel-Lab <a href="https://github.com/Matthewdr23/Sentinel-Lab" target="_blank"><span
+                        class="fa-brands fa-github" aria-hidden="true"></span>
+                  </a></h3>
+               <p class="blackbox">
+                  I setup Azure Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot. We will observe live attacks (RDP Brute Force) from all around the world. 
+                  I will use a custom PowerShell script to look up the attackers Geolocation information and plot it on an Azure Sentinel Map! <a href="https://github.com/Matthewdr23/Sentinel-Lab">Access it here</a>
+                  and see
+                  for yourself.</p>
+               <h4>Technologies used include: </h4>
+               <ul>
+                  <li>Azure Sentinel</li>
+                  <li>PowerShell</li>
+                  <li>Virtual Machines</li>
+                  <li>Networking</li>
+                  <li>Information Gathering</li>
+               </ul>
+            </section>
+            <img src="images/Azure-Sentinel-lab.png" alt="Azure-Sentinel-lab" />
+         </article>
+         <hr>
+         <!-- Project 2 -->
+         <article>
+            <section class="text">
+               <h3>Development Environment <a href="https://github.com/Matthewdr23/Terraform_Projects/tree/main/Azure/Dev_Environment" target="_blank"><span
+                        class="fa-brands fa-github" aria-hidden="true"></span>
+                  </a></h3>
+               <p class="blackbox">
+                  The Terraform Development Environment project illustrates my proficiency in infrastructure as code (IAC) by using Terraform to automate the setup of a robust development environment running Ubuntu on cloud platforms.
+                   It demonstrates my ability to streamline resource provisioning, configuration, and management, showcasing my practical expertise in efficiently building and maintaining cloud-based development environments for our projects.
+                   This initiative underscores my commitment to enhancing our infrastructure through automation and modern DevOps practices.<a
+                     href="https://github.com/Matthewdr23/Terraform_Projects/tree/main/Azure/Dev_Environment"> Click
+                     here</a>
+                  and see for yourself.</p>
+               <h4>Technologies used include: </h4>
+               <ul>
+                  <li>Terraform</li>
+                  <li>Azure CLI</li>
+                  <li>Networking</li>
+                  <li>Virtual Machine</li>
+                  
+               </ul>
+            </section>
+            <img src="images/dev-env.png" alt="Loan and Bitcoin." />
+         </article>
+         <!-- <hr> -->
+         <!-- Project Bitcoin -->
+         <!-- <article>
+            <section class="text">
+               <h3>Pay Loan or Buy Bitcoin <a href="https://github.com/EricqyHan/DailyStudentLoanCalculator"
+                     target="_blank"><span class="fa-brands fa-github" aria-hidden="true"></span>
+                  </a>
+               </h3>
+               <p class="blackbox">
+                  Pay Loans or Buy Bitcoin is an app that calculates the current amount of interest your loans are
+                  costing you a day. It also shows you the current price of Bitcoin and lets you decide if you
+                  should
+                  pay more of your loan or buy bitcoin. Access it <a
+                     href="https://eric-han-loan-bitcoin-app.netlify.app/">Click here</a> and see for yourself.</p>
+               <h4>Technologies used include: </h4>
+               <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JS</li>
+                  <li>Bitcoin API</li>
+               </ul>
+            </section>
+            <img src="images/DailyInterestRate.png" alt="Loan and Bitcoin." />
+         </article> -->
+      </section>
+   </section>
+
+
+   <section class="gradient"></section>
+   <section class="section-skyblue">
+      <section id="contact-me">
+         <h2>Contact Me</h2>
+         <p>I'm always interested in hearing about new opportunities.</p>
+         <p><a href="mailto:matthewvelez25@gmail.com" class="button">Email Me</a></p>
+      </section>
+   </section>
+
+   <section class="footer">
+      <section class="gradient"></section>
+      <footer>
+         <h2>Matthew Velez &middot; Security Engineer</h2>
+         <ul class="footer">
+            <li><a href="https://www.linkedin.com/in/matthew-velez-b85b97140/" target="_blank"><span class="fa-brands fa-linkedin"></span><span
+                     class="sr-only">LinkedIn</span></a></li>
+            <li><a href="https://github.com/Matthewdr23" target="_blank"><span class="fa-brands fa-github"><span
+                        class="sr-only">Github</span></span></a></li>
+            <!-- <li><a href="#"><span class="fa-solid fa-envelopes-bulk"></span></a></li> -->
+         </ul>
+         <p><small>&copy; 2023 Matthew Velez</small></p>
+      </footer>
+   </section>
+   <script src="JavaScript/script.js"></script>
 </body>
+
 </html>
