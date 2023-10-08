@@ -6,6 +6,9 @@
   --mainLinkColor: #0da2b8;
   --mainBorderColor: rgb(218, 218, 218);
   --mainBgColor: rgb(249, 250, 251);
+  --light: #92DE34;
+  --dark: #69BC22;
+  --text: #025600;
 }
 
 /* :root {
@@ -143,3 +146,11 @@ a {
   background-color: var(--mainBorderColor);
   height: 1px;
 }
+
+button {
+  border-radius: 30px;
+  border: 2px;
+  font-size: 1rem;
+  background-color: greenyellow;
+}
+ 
