@@ -139,6 +139,20 @@ img {
   font-size: 1rem;
   line-height: 1.5;
 }
+article .aboutme_text {
+  background-color: black;
+  border-radius: 10px;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* section.aboutme_text {
+  border: 5px solid pink;
+  display: flex;
+  align-items: center;
+} */
+
 
 #projects ul {
   list-style-type: none;
