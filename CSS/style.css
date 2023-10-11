@@ -13,6 +13,7 @@
   --charm: rgb(84, 45, 255);
   --oceanblue: #639cd9;
   --oceanblue2: #5454c5;
+  
 }
 
 /* border box model: https://css-tricks.com/box-sizing/ */
@@ -402,14 +403,14 @@ img #my-img {
   font-family: system-UI;
   font-weight: bold;
   font-size: 2rem;
-  color: #d9376e;
+  color: #000000;
   height: 6rem;
   border-right: 0.8rem solid transparent;
   padding: 0.2rem;
 }
 
 [data-typewriter]:not(.typing) {
-  animation: blink-caret 1.1s step-end infinite;
+  animation: blink-caret .75s step-end infinite;
 }
 
 @keyframes blink-caret {
