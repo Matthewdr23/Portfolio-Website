@@ -13,6 +13,7 @@
   --charm: rgb(84, 45, 255);
   --oceanblue: #639cd9;
   --oceanblue2: #5454c5;
+  --DKgreen: #006312;
   
 }
 
@@ -32,7 +33,7 @@ body {
   margin: 0;
   font-family: var(--sans);
   /* background-color: var(--black); */
-  background-color: var(--blueblack);
+  background-color: var(--DKgreen);
   color: var(--white);
   font-size: var(--font-size);
 }
