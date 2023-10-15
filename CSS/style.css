@@ -191,7 +191,7 @@ h4 + ul li:last-child::after {
   width: 400px;
   text-align: center;
   margin: 0 auto;
-  padding: 3rem 0;
+  /* padding: 3rem 0; */
 }
 
 /* Background colors divs */
@@ -292,18 +292,6 @@ nav [class*="fa-"]:hover {
 /* Footer */
 footer {
   text-align: center;
-  margin-top: 2rem;
-}
-
-footer ul {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  padding: 0;
-  margin: 2rem 0;
-  font-size: 3rem;
-  list-style-type: none;
-  gap: 3rem;
 }
 
 #footer p {
